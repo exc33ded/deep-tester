@@ -47,10 +47,10 @@ Copy the folder into your Claude Code skills directory:
 
 ```bash
 # macOS / Linux
-git clone https://github.com/<you>/deep-tester ~/.claude/skills/deep-tester
+git clone https://github.com/exc33ded/deep-tester ~/.claude/skills/deep-tester
 
 # Windows (PowerShell)
-git clone https://github.com/<you>/deep-tester "$env:USERPROFILE\.claude\skills\deep-tester"
+git clone https://github.com/exc33ded/deep-tester "$env:USERPROFILE\.claude\skills\deep-tester"
 ```
 
 Start a new Claude Code session and run `/deep-tester help`.
@@ -84,4 +84,4 @@ MIT, see [LICENSE](LICENSE). Parts of the assessment, persona, accessibility, ev
 
 ## See also
 
-[test-case-generator](../../../test-case-generator): the companion skill that writes test files at code level, finding edge cases and the places where code breaks.
+[test-case-generator](https://github.com/exc33ded/test-case-generator): the companion skill that writes test files at code level, finding edge cases and the places where code breaks.
